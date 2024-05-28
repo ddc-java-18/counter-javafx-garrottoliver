@@ -1,0 +1,23 @@
+Text {
+  -fx-font-size: 18pt;
+}
+
+VBox {
+  -fx-alignment: center;
+  -fx-spacing: 1em;
+  -fx-padding: 10px;
+}
+
+HBox {
+  -fx-alignment: center;
+  -fx-spacing: 1em;
+  -fx-padding: 10px;
+}
+
+Button {
+  -fx-font-size: 18px;
+}
+
+#reset {
+  -fx-font-weight: bold
+}

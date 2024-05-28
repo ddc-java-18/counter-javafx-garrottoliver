@@ -31,6 +31,5 @@ dependencyResolutionManagement {
     }
 }
 
-// TODO Replace "replace-me" with a suitable artifact name, written in spinal-case.
-rootProject.name = "replace-me"
+rootProject.name = "counter"
 

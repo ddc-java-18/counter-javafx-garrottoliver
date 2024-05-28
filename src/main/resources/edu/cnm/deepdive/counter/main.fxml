@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<VBox
+    xmlns:fx="http://javafx.com/fxml"
+    fx:controller="edu.cnm.deepdive.counter.controller.MainController"
+    stylesheets="@styles.css">
+
+  <Text
+    fx:id="count">0
+  </Text>
+
+  <HBox>
+    <Button
+      fx:id="increment"
+      text="%increment"
+      onAction="#incrementTally"/>
+
+    <Button
+      fx:id="reset"
+      text="%reset"
+      onAction="#resetTally"/>
+
+  </HBox>
+
+</VBox>
